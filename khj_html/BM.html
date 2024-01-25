@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    ul {
+        list-style: none;
+        display: block;
+        
+    }
+    li {
+        float:left;
+        margin-right: 13px;
+        
+    }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배달의 민족 로그인</title>
+
+    <link
+            rel="shortcut icon"
+            href="https://www.baemin.com/alliance/img/login-favicon.ico"
+            type="image/x-icon"
+        />
+</head>
+<body>
+    <!--상단 타이틀-->
+    <div id="app">
+        <div class="wrapper" style="padding-top:10%; width: 456px; height: 647px; max-width : 456px; display: block; margin: auto;">
+            <div class="top" style="text-align: center;">
+            <img class="title-logo" src = "https://www.baemin.com/alliance/img/login/img-title.png" alt="배달의 민족" style="width: 165px;height: 37px;">
+            <p class="title-description" style="text-align: center; margin-top: 30px;">
+                배달의민족 앱 아이디로
+                <br>
+                모든 서비스를 이용할 수 있어요.
+            </div>
+            </p>
+            <!--로그인 입력칸-->
+            <form action="#" id="login-form">
+
+                <!--ID-->
+                <label class="login-input">
+                    
+                    <input type="text" name="text" style="border-radius: 5px; border: 1px solid rgb(245, 245, 245); width : 382px; height: 40px; padding-left: 20px;" placeholder="이메일 또는 아이디">
+                 </label>   
+                <!--PASSWORD--> 
+                <label class="login-input">
+
+                    <input type="password" name="text" style="border-radius: 5px; border: 1px solid rgb(245, 245, 245); width : 382px; height: 40px; padding-left: 20px; margin-top: 20px;" placeholder="비밀번호">
+                <label class="login-input">
+                </label>
+
+                <!--로그인 버튼-->
+                <div class="login-button">
+                    <button type="button" class = "login-button" default ="default"
+                    style="width: 410px; height: 44px; padding-left: 16px; padding-right: 16px; border: 2px; border-radius: 5px;
+                    background-color: rgb(224, 224, 224); color: rgb(255, 255, 255); font-size: 18px; font-weight: 700; margin-top: 30px;">
+                    <span class="button-text">로그인</span>
+                    </button>
+                </div>
+            </form>
+
+            <!--휴대폰 번호 로그인 버튼-->
+                <div class="phone-login">
+                    <div class="login-button">
+                        <button type="button" class = "login-button" default ="default"
+                        style="width: 410px; height: 44px; padding-left: 16px; padding-right: 16px; border: 1px solid rgb(167, 167, 167); border-radius: 50px; background-color: white; font-size: 13px; font-weight: 400; margin-top: 30px;">
+                        <span class="button-text">
+                            <img src= "https://www.baemin.com/alliance/img/login/call@2x.png" style="width:17px;"> 휴대폰번호로 계속하기</span>
+                        </button>
+                    </div>
+                </div> 
+                
+            <!--SNS계정 로그인 글 -->    
+                    <div class="sns-login" style="font-size: 13px; color:rgb(153, 150, 150); text-align: center; margin-top: 30px; padding-right: 10%;">
+                        <p>
+                            
+                            <hr style="display: inline-block; padding-left: 30%;">   SNS 계정으로 로그인   <hr style="display: inline-block; padding-right:30%;">
+                        </p>
+                    </div>
+            <!-- SNS계정 로그인 아이콘 -->
+                    <div class="choice" style="margin-left: 10%; margin-top: 30px;">
+                        <ul class = sns-list>
+                            <li class="kakao">
+                                <a href="#">
+                                    <span class="choice-sns-text-font" default="default">
+                                        <span>
+                                            <img src="kakao.png" width="60px"> </span>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="facebook">
+                                <a href="#">
+                                    <span class="choice-sns-text-font" default="default">
+                                        <span>
+                                            <img src="facebook.png" width="60px"> </span>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="naver">
+                                <a href="#">
+                                    <span class="choice-sns-text-font" default="default">
+                                        <span>
+                                            <img src="naver.png" width="60px"> </span>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="apple">
+                                <a href="#">
+                                    <span class="choice-sns-text-font" default="default">
+                                        <span>
+                                            <img src="apple.png" width="60px"> </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div style="font-size: 13px; margin-top: 30px; text-align: center; padding-right: 10px;">
+                        <p>© Woowa Brothers Corp.</p>
+                    </div>
+                    
+                
+
+                
+            
+        </div>
+    </div>
+    
+</body>
+</html>
